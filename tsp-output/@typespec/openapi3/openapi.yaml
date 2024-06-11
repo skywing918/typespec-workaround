@@ -1,0 +1,23 @@
+openapi: 3.0.0
+info:
+  title: title - info
+  contact_email:
+    a: aaa
+    b: bbb
+  description: This is a sample server Petstore server.
+  version: 0.0.0
+tags: []
+paths:
+  /:
+    get:
+      operationId: readxxx
+      parameters: []
+      responses:
+        '200':
+          description: The request has succeeded.
+          content:
+            application/json:
+              schema:
+                type: string
+      x-custom: My value
+components: {}

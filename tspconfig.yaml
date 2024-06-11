@@ -1,0 +1,4 @@
+emit:
+  # - "@azure-tools/typespec-autorest"
+  # - "@typespec/openapi"
+  - "@typespec/openapi3"
